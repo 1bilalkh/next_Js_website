@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Image from "next/image";
 import Button from "./components/Button";
 import Services from "./components/Services";
@@ -41,7 +40,7 @@ export default function Home() {
             <br></br>
             into Next JS
           </h1>
-          <p className="mt-4 text-[16px] md:text-[16px] leading-[28px] ">
+          <p className="mt-4 text-[16px] md:text-[16px] leading-[28px]">
             We convert your design into a fast, responsive, and modern Next.js application using clean code and best practices.
           </p>
         </div>
