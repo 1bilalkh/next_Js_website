@@ -1,5 +1,4 @@
 
-
 export const metadata = {
   title: "Case Page",
   description: "This is my Case page",
