@@ -1,3 +1,5 @@
+import ServicesText from "./TextBox";
+
 export default function Services() {
   const services = [
     {
@@ -166,11 +168,9 @@ export default function Services() {
   ];
 
   return (
+    <>
     <section className="py-16 bg-white text-center">
-      <h1 className="text-3xl font-semibold">What we Cover ?</h1>
-      <p className="mt-2 text-[16px] md:text-[16px] leading-[28px]">
-        Our capabilities include but are not limited to!
-      </p>
+      <ServicesText />
 
       <div className="flex flex-wrap justify-center gap-4 mx-auto max-w-7xl pt-12">
         {services.map((service, index) => (
@@ -187,5 +187,7 @@ export default function Services() {
         ))}
       </div>
     </section>
+    
+    </>
   );
 }

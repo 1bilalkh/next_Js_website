@@ -2,10 +2,11 @@
 
 
 import Image from "next/image";
-import Button from "./Button"; 
+//import Button from "./Button"; 
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import AnimatedButton from "./Button-com";
 
 const menuItems = [
   { name: "Home", path: "/" },
@@ -35,9 +36,10 @@ export default function Navbar() {
      
       
       <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-          <Button className="bg-blue-500 text-white px-4 py-2 rounded">
+          {/* <Button className="bg-blue-500 text-white px-4 py-2 rounded">
               Sign In
-          </Button>
+          </Button> */}
+          <AnimatedButton />
           <button
         className="md:hidden text-2xl"
         onClick={() => setOpen(!open)}

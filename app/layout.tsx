@@ -29,9 +29,10 @@ export default function RootLayout({
     >
     <body className={poppins.className}>
         <Header />
-          <div style={{ textAlign: "center", marginTop: "92px" }}>
+          <div style={{ marginTop: "92px" }}>
               {children}
           </div>
+          
        <Footer />
       </body>
     </html>
